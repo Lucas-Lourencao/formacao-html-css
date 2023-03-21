@@ -1,0 +1,18 @@
+/* Padrão Hexadecimal */
+.hexadecimal {
+  color: #0000ff;
+}
+
+/* Padrão RGB - O quarto elemento trata da opaciade ou transparencia*/
+.rgb {
+  color: RGB(224, 158, 58, 0.2);
+}
+
+/* Padrão HSV - O quarto elemento trata da opaciade ou transparencia*/
+.hsv {
+  color: HSV(122°, 55%, 65%, 30%);
+}
+
+body {
+  background-color: rgb(138, 43, 226, 0.1);
+}
