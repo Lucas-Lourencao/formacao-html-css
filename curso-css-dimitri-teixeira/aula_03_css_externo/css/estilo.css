@@ -1,0 +1,19 @@
+body {
+            background: yellow;
+        }
+
+h1 {
+    color: blue;
+    font-size: 3rem;
+}
+
+h2 {
+    color: aqua;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#paragrafo-css-externo {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
