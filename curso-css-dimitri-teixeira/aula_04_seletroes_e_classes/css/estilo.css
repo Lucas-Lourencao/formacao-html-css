@@ -1,0 +1,43 @@
+/*Aplicação CSS sobre o elemento HTML*/
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: larger;
+}
+
+/*Aplicação CSS sobre uma classe*/
+.titulo-seletorClasse {
+    font-size: 3rem;
+    color:rgb(153, 0, 255);
+}
+
+/*Aplicação CSS sobre um ID*/
+#titulo-seletorId {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: red;
+}
+
+/*Aplicação CSS Agrupada*/
+li, a, span, #titulo-seletorAgrupado {
+    text-align: left;
+    padding-top: 2rem;
+    font-style: oblique;
+}
+
+/*Aplicação CSS sobre tudo*/
+* {
+    padding: 1rem;
+    background-color: aquamarine;
+}
