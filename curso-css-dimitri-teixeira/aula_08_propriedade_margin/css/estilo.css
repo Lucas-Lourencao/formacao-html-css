@@ -1,0 +1,40 @@
+.paragrafo1 {
+  border: 3px solid black;
+  padding: 5px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  margin-left: 1rem;
+}
+.paragrafo2 {
+  border: 3px solid orange;
+  padding: 5px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  margin-right: 3rem;
+}
+.paragrafo3 {
+  border: 3px solid red;
+  padding: 5px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  margin-top: 5rem;
+}
+.paragrafo4 {
+  border: 3px solid green;
+  padding: 5px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  margin-bottom: 25%;
+}
+.paragrafo5 {
+  border: 3px solid blue;
+  padding: 5px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  margin: 3rem 5rem 8rem 5rem;
+}

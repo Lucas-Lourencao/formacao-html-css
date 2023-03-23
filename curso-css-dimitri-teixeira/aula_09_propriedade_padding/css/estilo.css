@@ -1,0 +1,31 @@
+/* Repare que o padding pode ser feito em pixels, rem ou % */
+body {
+  background: yellow;
+}
+.botao-avancar {
+  background-color: aqua;
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.botao-voltar {
+  background-color: aqua;
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.botao-avancar:hover {
+  background-color: aquamarine;
+  color: purple;
+}
+.botao-voltar:hover {
+  background-color: aquamarine;
+  color: purple;
+}

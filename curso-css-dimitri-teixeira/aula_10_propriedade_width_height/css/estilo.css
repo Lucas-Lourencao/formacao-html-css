@@ -1,0 +1,44 @@
+.paragrafo1 {
+  text-align: justify;
+  padding: 10px;
+  background-color: aqua;
+  color: black;
+  height: 100px;
+  /* Perceba que se não é atribuido uma largura máxima, o bloco ocupará toda a largura do dispositivo. */
+}
+.paragrafo2 {
+  text-align: justify;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  width: 300px;
+  height: 100px;
+  /* Perceba que se não é atribuido uma largura máxima, o bloco ocupará toda a largura do dispositivo. */
+}
+.paragrafo3 {
+  text-align: justify;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  width: 800px;
+  height: 100px;
+  /* Perceba que ao atingir os 800px o bloco cinza deixa de crescer. */
+}
+.paragrafo4 {
+  text-align: justify;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  max-width: 800px;
+  height: 100px;
+  /* Perceba que ao atingir os 800px o bloco cinza deixa de crescer. */
+}
+.paragrafo5 {
+  text-align: justify;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  max-width: auto;
+  height: 100px;
+  /* Perceba que ao atingir os 800px o bloco cinza deixa de crescer. */
+}
