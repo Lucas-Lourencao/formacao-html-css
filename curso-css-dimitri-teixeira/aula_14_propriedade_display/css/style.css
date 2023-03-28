@@ -1,0 +1,95 @@
+div.bloco_01 {
+  border: 5px solid red;
+}
+div.bloco_02 {
+  border: 5px solid green;
+}
+div.bloco_03 {
+  border: 5px solid blue;
+}
+
+a.inline_01 {
+  border: 5px solid red;
+  padding: 10px;
+}
+a.inline_02 {
+  border: 5px solid green;
+  padding: 10px;
+  width: 800px; /*Repare que este atributo não tem efeito sobre a tag a*/
+}
+a.inline_03 {
+  border: 5px solid blue;
+  padding: 10px;
+  margin-top: 100px; /*Repare que este atributo não tem efeito sobre a tag a*/
+}
+
+span.inlineBlock_01 {
+  display: inline-block;
+  margin-top: 100px; /*Repare que este atributo não teria efeito sobre a tag span, não fosse a atribuição do display:inline-block*/
+  border: 5px solid red;
+  padding: 10px;
+}
+div.inlineBlock_02 {
+  /*Repare que esmo sendo uma tag nativamente do tipo block, foi possível colocar em linha com outra tag HTML*/
+  display: inline-block;
+  border: 5px solid green;
+  padding: 10px;
+}
+h3.inlineBlock_03 {
+  /*Repare que esmo sendo uma tag nativamente do tipo block, foi possível colocar em linha com outra tag HTML*/
+  display: inline-block;
+  display: inline-block;
+  border: 5px solid blue;
+  padding: 10px;
+}
+
+ul.desaparecer:hover {
+  display: none;
+}
+
+div.displayNone1 {
+  display: inline-block;
+  border: 5px solid black;
+  background: red;
+  padding: 20px;
+}
+div.displayNone2 {
+  display: inline-block;
+  border: 5px solid black;
+  background: yellow;
+  padding: 20px;
+}
+div.displayNone3 {
+  display: inline-block;
+  border: 5px solid black;
+  background: green;
+  padding: 20px;
+}
+/* Fazendo o bloco 2 desaparecer e não ocupando espaço na tela */
+div.displayNone2:hover {
+  display: none;
+}
+
+div.displayVisibillity1 {
+  display: inline-block;
+  border: 5px solid black;
+  background: red;
+  padding: 20px;
+}
+div.displayVisibillity2 {
+  display: inline-block;
+  border: 5px solid black;
+  background: yellow;
+  padding: 20px;
+}
+div.displayVisibillity3 {
+  display: inline-block;
+  border: 5px solid black;
+  background: green;
+  padding: 20px;
+}
+/* Fazendo o bloco 2 desaparecer e CONTINUAR OCUPANDO espaço na tela */
+div.displayVisibillity2:hover {
+  display: inline-block;
+  visibility: hidden;
+}
