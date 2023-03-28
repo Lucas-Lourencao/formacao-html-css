@@ -1,0 +1,58 @@
+a.link1 {
+  background: darkgreen;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border: 4px solid greenyellow;
+  border-radius: 5px;
+}
+a.link1:hover {
+  background: rgb(6, 211, 6);
+  border: 4px solid rgb(80, 129, 6);
+}
+
+a.link2 {
+  text-decoration: none;
+  padding: 10px;
+  border: 5px solid blue;
+}
+
+a.link2:hover {
+  text-decoration: underline;
+  padding: 8px;
+  background: blue;
+  color: white;
+}
+
+a.link3 {
+  color: black;
+  text-decoration: none;
+}
+
+a.link3:hover {
+  border-bottom: 5px solid red;
+}
+
+a.link4 {
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+}
+
+a.link4:hover {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+a.link5 {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
+
+a.link5:hover {
+  border: 1px solid red;
+  padding: 10px;
+  font-size: 18px;
+  cursor: progress;
+}
