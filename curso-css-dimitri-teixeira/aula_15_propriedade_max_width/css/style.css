@@ -1,0 +1,29 @@
+.paragrafo1 {
+  color: black;
+  border: 5px solid green;
+  width: 800px;
+}
+
+.paragrafo2 {
+  color: black;
+  border: 5px solid red;
+  width: auto;
+}
+
+.paragrafo3 {
+  color: black;
+  border: 5px solid red;
+  max-width: 800px;
+}
+
+.paragrafo4 {
+  color: black;
+  border: 5px solid blue;
+  max-width: max-content;
+}
+
+.paragrafo5 {
+  color: black;
+  border: 5px solid yellow;
+  max-width: min-content;
+}
