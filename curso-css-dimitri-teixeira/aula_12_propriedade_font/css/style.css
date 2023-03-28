@@ -1,0 +1,49 @@
+/* Agora basta importar a fonte que tiver interesse e constar dispon´vel no google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
+.paragrafo1 {
+  color: black;
+  text-indent: 60px;
+  text-align: justify;
+  font-family: "Delicious Handrawn", cursive; /*fonte importada do Google Fonts*/
+  font-size: 20px; /*Propriedade vinculada a determinação do tamanho da fonte.*/
+}
+
+.paragrafo2 {
+  color: black;
+  direction: rtl;
+  word-spacing: 15px;
+  line-height: 40px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /*fonte default do CSS*/
+  font-style: italic; /*Propriedade vinculada a determinação do estilo da fonte.*/
+}
+
+.paragrafo3 {
+  color: black;
+  letter-spacing: 5px;
+
+  font-family: "Righteous", cursive;
+  font-weight: bold; /*Negrito com CSS*/
+}
+
+.paragrafo4 {
+  color: black;
+  text-align: justify;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 40px;
+
+  font-family: fantasy;
+  font-weight: 700;
+}
+
+.paragrafo5 {
+  color: black;
+  unicode-bidi: bidi-override;
+  text-transform: capitalize;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-variant: small-caps;
+}
