@@ -1,0 +1,28 @@
+.paragrafo1 {
+  color: black;
+  text-indent: 60px;
+  text-align: justify; /*center, end, initial, right, left, etc */
+}
+
+.paragrafo2 {
+  color: black;
+  direction: rtl;
+  word-spacing: 15px;
+  line-height: 40px;
+}
+
+.paragrafo3 {
+  color: black;
+  letter-spacing: 5px;
+}
+
+.paragrafo4 {
+  color: black;
+  text-transform: uppercase;
+}
+
+.paragrafo5 {
+  color: black;
+  unicode-bidi: bidi-override;
+  text-transform: capitalize;
+}
