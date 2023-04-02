@@ -14,6 +14,13 @@ a:hover {
   font-size: 18px;
 }
 
+.div_semOverflow {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+}
+
 /* Propriedade overflow:visible */
 .div_visible {
   background-color: coral;
