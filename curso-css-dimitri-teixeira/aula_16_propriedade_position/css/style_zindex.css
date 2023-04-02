@@ -4,10 +4,50 @@
   height: 400px;
 }
 
-.container:hover {
+.container_final {
+  background: blue;
+  width: 100%;
+  height: 400px;
+}
+
+.container_final:hover {
   opacity: 0.3;
 }
 
+/* Estilos antes de trabalhar o position: */
+.div_01_inicial {
+  padding: 10px;
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  background: red;
+}
+
+.div_02_inicial {
+  padding: 10px;
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  background: yellow;
+}
+
+.div_03_inicial {
+  padding: 10px;
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  background: green;
+}
+
+.div_04_inicial {
+  padding: 10px;
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  background: purple;
+}
+
+/* Estilos após trabalhar o position: */
 .div_01 {
   padding: 10px;
   width: 20%;
