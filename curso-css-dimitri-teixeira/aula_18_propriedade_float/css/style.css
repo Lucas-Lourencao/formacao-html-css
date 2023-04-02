@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid gray;
+  overflow: auto;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Propriedade Clear - Limpa os estilos aplicados
+- No caso, o h3 comportou-se como bloco e empurrou tudo que estava abaixo dele para baixo.*/
+.titulo_h3 {
+  clear: both;
+}
