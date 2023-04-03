@@ -1,0 +1,53 @@
+.container {
+  border: 1px solid gray;
+  overflow: auto;
+  margin: 3px;
+}
+
+img {
+  margin: 5px;
+}
+
+p {
+  margin: 3px;
+}
+
+ul {
+  border: 1px solid red;
+  background: black;
+  padding: 5px;
+}
+
+li {
+  padding: 10px;
+  display: inline-block;
+}
+
+li a {
+  padding: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background: gray;
+  font-size: 16px;
+}
+
+.link5 {
+  float: right;
+}
+
+.img_01 {
+  float: left;
+}
+
+.img_02 {
+  float: right;
+}
+
+/* Propriedade Clear - Limpa os estilos aplicados
+- No caso, o h3 comportou-se como bloco e empurrou tudo que estava abaixo dele para baixo.*/
+.titulo_h3 {
+  clear: both;
+}

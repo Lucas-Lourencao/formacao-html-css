@@ -1,0 +1,80 @@
+ul,
+li,
+a,
+.container {
+  display: inline-block;
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 5px;
+}
+
+a:hover {
+  color: coral;
+  font-size: 18px;
+}
+
+.div_semOverflow {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+}
+
+/* Propriedade overflow:visible */
+.div_visible {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}
+
+/* Propriedade overflow:hidden */
+.div_hidden {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+/* Propriedade overflow:scroll */
+.div_scroll {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid;
+  overflow: scroll;
+}
+
+/* Propriedade overflow:auto */
+.div_auto {
+  background-color: coral;
+  width: 200px;
+  height: 130px;
+  border: 1px solid;
+  overflow: auto;
+}
+
+.div_auto:hover {
+  height: 100px;
+  overflow: auto;
+}
+
+/* Propriedade overflow:eixos XY */
+.div_eixos_xy {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.div_eixos_xy:hover {
+  width: 100px;
+  height: 150px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}

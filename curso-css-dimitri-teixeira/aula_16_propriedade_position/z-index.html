@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propriedade Position</title>
+    <link rel="stylesheet" href="css/style_zindex.css" />
+  </head>
+  <body>
+    <h1>Propriedade Position</h1>
+    <h2>Z-Index</h2>
+    <h3>Bloco sem alteração do position</h3>
+    <div class="container">
+      <div class="div_01_inicial">Conteudo Primeira Div</div>
+      <div class="div_02_inicial">Conteudo Segunda Div</div>
+      <div class="div_03_inicial">Conteudo Terceira Div</div>
+      <div class="div_04_inicial">Conteudo Quarta Div</div>
+    </div>
+    <h3>Bloco com Position Relative e Z-Index trabalhado</h3>
+    <p>
+      O elemento HMTL "filho" assume uma posição tendo como referencia um
+      elemento HTML "pai".
+    </p>
+    <div class="container_final">
+      <div class="div_01">Conteudo Primeira Div</div>
+      <div class="div_02">Conteudo Segunda Div</div>
+      <div class="div_03">Conteudo Terceira Div</div>
+      <div class="div_04">Conteudo Quarta Div</div>
+    </div>
+    <p>
+      O Z-Index permite manipular os elementos HTML de modo que seja possível
+      controlar a sobreposição entre eles.
+    </p>
+    <p>Quanto maior o Z-Index, mais a frente estará o elemento.</p>
+    <p>
+      O valor de Z- Index pode assumir um valor negativo. Perceba que ao criar
+      uma div 4, atribuimos o z-index = -1. Deste modo, o bloco foi posicionado
+      atrás do background do elemento pai, que até então era o elemento mais ao
+      fundo do bloco. Você conseguirá ver o bloco roxo se passar o mouse sobre o
+      bloco azul.
+    </p>
+    <div>
+      <ul>
+        <li><a href="z-index.html" class="link1">Z-Index</a></li>
+        <li><a href="position_relative.html" class="link2">Relative</a></li>
+        <li><a href="position_static.html" class="link2">Static</a></li>
+        <li><a href="position_stick.html" class="link3">Stick</a></li>
+        <li><a href="position_absolute.html" class="link4">Absolute</a></li>
+        <li><a href="position_fixed.html" class="link4">Absolute</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
