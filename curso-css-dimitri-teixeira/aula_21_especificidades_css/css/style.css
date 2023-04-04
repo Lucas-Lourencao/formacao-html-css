@@ -1,0 +1,103 @@
+/* Repare que no item 0 a predominancia do CSS é dada pela aplicação da regra !important */
+#item0 {
+  background: blue;
+  color: white;
+  font-size: 18px;
+}
+
+li.item0 {
+  background: red;
+  color: bisque !important;
+  font-size: 22px;
+}
+.item0 {
+  background: green !important;
+  color: yellow;
+  font-size: 26px;
+}
+
+li {
+  background: white;
+  color: green;
+  font-size: 40px;
+}
+
+/* Repare que no item 1 a predominancia do CSS é dada pela aplicação do CSS inline */
+#item1 {
+  background: blue;
+  color: white;
+  font-size: 18px;
+}
+
+li.item1 {
+  background: red;
+  color: bisque;
+  font-size: 22px;
+}
+.item1 {
+  background: green;
+  color: yellow;
+  font-size: 26px;
+}
+
+li {
+  background: white;
+  color: green;
+  font-size: 40px;
+}
+
+/* Repare que no item 2 a predominancia do CSS é dada pela aplicação do CSS pelo ID */
+#item2 {
+  background: blue;
+  color: white;
+  font-size: 18px;
+}
+
+li.item2 {
+  background: red;
+  color: bisque;
+  font-size: 22px;
+}
+.item2 {
+  background: green;
+  color: yellow;
+  font-size: 26px;
+}
+
+li {
+  background: white;
+  color: green;
+  font-size: 40px;
+}
+
+/* Repare que no item 3 a predominancia do CSS é dada pela aplicação do CSS pelo seletor.classe */
+li.item3 {
+  background: red;
+  color: bisque;
+  font-size: 22px;
+}
+.item3 {
+  background: green;
+  color: yellow;
+  font-size: 26px;
+}
+
+/* Repare que no item 4 a predominancia do CSS é dada pela aplicação do CSS pela classe descrita no CSS externo mesmo havendo um CSS interno */
+.item4 {
+  background: green;
+  color: yellow;
+  font-size: 26px;
+}
+
+li {
+  background: white;
+  color: green;
+  font-size: 40px;
+}
+
+/* Repare que no item 5 a predominancia do CSS é dada pela aplicação do CSS aplicado pelo seletor descrito no CSS externo mesmo havendo um CSS interno */
+li {
+  background: rgb(185, 185, 185);
+  color: green;
+  font-size: 40px;
+}
