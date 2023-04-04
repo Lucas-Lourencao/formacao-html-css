@@ -1,0 +1,38 @@
+h1 {
+  text-shadow: 2px 2px 5px red; /* 2px sombra horizontal, 2 px sombra vertical, 5px blur (efeito de borrado)*/
+}
+
+.branco {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.multipla {
+  color: gray;
+  text-shadow: 0 0 10px white, 2px 2px 5px yellow;
+}
+
+h1.box {
+  text-shadow: 2px 2px 5px blue; /* 2px sombra horizontal, 2 px sombra vertical, 5px blur (efeito de borrado)*/
+}
+
+.card1 {
+  display: inline-block;
+  background: blue;
+  width: 40%;
+  height: 400px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+.card2 {
+  text-align: center;
+  background: white;
+  width: 40%;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
+}
+
+img.imagem {
+  width: 100%;
+}
