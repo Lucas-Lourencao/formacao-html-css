@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Especificidades CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      li {
+        background: black;
+        color: aliceblue;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Regras de Especificidades CSS</h1>
+    <h2>Ordem de Prioridade</h2>
+    <ol style="background: purple; color: white">
+      <li id="item0" class="item0">
+        Estilo aplicado com a regra !important - aula 22
+      </li>
+      <li
+        style="background: yellow; color: black; font-weight: bold"
+        id="item1"
+        class="item1"
+      >
+        Estilo aplicado inline
+      </li>
+      <li id="item2" class="item2">Estilo aplicado pelo ID</li>
+      <li class="item3">Estilo aplicado pelo Seletor.Classe</li>
+      <li class="item4">Estilo aplicado pela Classe</li>
+      <li class="item5">Estilo aplicado pelo Seletor - CSS Externo</li>
+    </ol>
+
+    <h3>Ordem de Prioridade Geral</h3>
+    <ol style="background: white; color: black">
+      <li style="background: white; color: black">Regra !important</li>
+      <li style="background: white; color: black">CSS aplicado inline</li>
+      <li style="background: white; color: black">
+        CSS aplicado pelo ID - 2.1 CSS Interno - 2.2 CSS Externo
+      </li>
+      <li style="background: white; color: black">
+        CSS aplicado pelo Seletor.Classe - 3.1 CSS Interno - 3.2 CSS Externo
+      </li>
+      <li style="background: white; color: black">
+        CSS aplicado pela Classe - 4.1 CSS Interno - 4.2 CSS Externo
+      </li>
+      <li style="background: white; color: black">
+        CSS aplicado pelo Seletor - 5.1 CSS Interno - 5.2 CSS Externo
+      </li>
+    </ol>
+  </body>
+</html>
