@@ -1,0 +1,46 @@
+#div_01 {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(blue, red);
+}
+
+#div_02 {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(45deg, blue, red, yellow, green);
+}
+
+#div_03 {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+#div_04 {
+  width: 100%;
+  height: 300px;
+  background-image: radial-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+#div_05 {
+  width: 100%;
+  height: 300px;
+  background-image: radial-gradient(orange 20%, green 60%, blue 20%);
+}
