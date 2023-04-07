@@ -14,13 +14,22 @@ header {
   margin-top: 10px;
 }
 
-section {
+section.secao-01 {
   background-color: gray;
   margin-top: 10px;
   border: 1px solid black;
   height: 300px;
   display: flex;
   flex-direction: row;
+}
+
+section.secao-02 {
+  background-color: coral;
+  margin-top: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex: wrap;
 }
 
 div {
@@ -65,6 +74,11 @@ p {
   div {
     width: 95%;
   }
+
+  div.nova-div {
+    color: antiquewhite;
+  }
+
   div.bloco1 {
     background-color: green;
   }
