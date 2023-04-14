@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: 0;
 }
 
 header {
@@ -21,6 +22,7 @@ section.secao-01 {
   height: 300px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 section.secao-02 {
@@ -29,12 +31,12 @@ section.secao-02 {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
-  flex: wrap;
+  flex-wrap: wrap;
 }
 
 div {
   font-size: 30px;
-  width: 30%;
+  width: 100px;
   margin: 10px;
   border: 5px solid white;
   border-radius: 10px;
@@ -67,8 +69,11 @@ p {
     color: white;
   }
   section {
-    flex-direction: column;
-    height: 230px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Também é possível juntar as duas aplicações de estilo acima conforme o modo abaixo 
+    flex-flow: row wrap;
+    */
   }
 
   div {
@@ -95,6 +100,13 @@ p {
   header {
     background-color: red;
   }
+
+  section {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* Parceba que sem a especificação do align-content os elementos ficam isolados assim que são deslocados para baixo da tela. Para corrigir isso veja o @media abaixo com o align-content: center; */
+  }
 }
 
 /* Dispostivos Médios (Tablets deitados, 768px para cima) */
@@ -103,6 +115,13 @@ p {
     background-color: gray;
     color: white;
   }
+  section {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* O align-content condensa os elementos de mod que fiquem próximos; */
+    align-content: flex-start;
+  }
 }
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
@@ -110,6 +129,13 @@ p {
   header {
     background-color: coral;
     color: white;
+  }
+  section {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* O align-content condensa os elementos de mod que fiquem próximos; */
+    align-content: flex-end;
   }
 }
 
