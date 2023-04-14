@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* É interessante começar a estrutura de uma página HTML setando o CSS acima, para evitar comportamentos indesejados como a soma de padding e margins que vem por default nos elementos html - Intrução aprendida em mentoria com o Rodrigo Lima da TypeDev*/

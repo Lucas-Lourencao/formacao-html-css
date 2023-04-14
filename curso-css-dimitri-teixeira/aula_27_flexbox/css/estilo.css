@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(59, 240, 104);
+  padding: 80px;
+  color: bisque;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 14px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.navbar a:hover {
+  background-color: azure;
+  color: black;
+  font-weight: 700;
+}
+
+.corpo {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  flex: 48%;
+  height: 200px;
+  background-color: rgb(159, 159, 160);
+  margin: 1%;
+  flex-grow: 1;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
