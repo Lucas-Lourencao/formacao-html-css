@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* CSS GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Propriedades com seletor Tag */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Propriedades com seletor Atributo */
+
+/* Propriedades com seletor Id */
+#botao-fale-conosco {
+  background-color: #180f4a;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+/* EFEITO: Propriedades com seletor Id */
+#botao-fale-conosco:hover {
+  border: none;
+  background-color: #ff2978;
+}
+
+/* Propriedades com seletor Classe */
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: white;
+  min-height: 100px;
+}
+
+.logo {
+  /* border: 1px solid red; */
+  flex: 20%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.menu {
+  /* border: 1px solid green; */
+  flex: 70%;
+  text-align: right;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.coluna-header-headline {
+  /* border: 1px solid black; */
+  flex: 40%;
+  margin-left: 10%;
+  color: #180f4a;
+  font-weight: 900;
+}
+
+.coluna-header-img {
+  flex: 40%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.img-header {
+  max-width: 90%;
+}
+
+.lorem-headline {
+  color: gray;
+  text-align: left;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.btn-headline {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #ff2978;
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Propriedades com seletor Classe + Tag */
+.logo h1 {
+  font-family: "Lobster", cursive;
+  color: #180f4a;
+  font-size: 34px;
+}
+.menu a {
+  text-decoration: none;
+  color: #180f4a;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+
+/* EFEITO: Propriedades com seletor Classe + Tag */
+.menu a:hover {
+  color: #ff2978;
+  border-top: 4px solid #180f4a;
+}
+
+.btn-headline:hover {
+  background-color: #180f4a;
+}

@@ -1,0 +1,144 @@
+/* Estilo atribuido a qualquer tamanhop de dispositivo */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+header {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  background-color: beige;
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+section.secao-01 {
+  background-color: gray;
+  margin-top: 10px;
+  border: 1px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section.secao-02 {
+  background-color: coral;
+  margin-top: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div {
+  font-size: 30px;
+  width: 100px;
+  margin: 10px;
+  border: 5px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div.bloco1 {
+  background-color: blue;
+}
+div.bloco2 {
+  background-color: red;
+}
+div.bloco3 {
+  background-color: green;
+}
+
+p {
+  border: 3px solid white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+  header {
+    background-color: blue;
+    color: white;
+  }
+  section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Também é possível juntar as duas aplicações de estilo acima conforme o modo abaixo 
+    flex-flow: row wrap;
+    */
+  }
+
+  div {
+    width: 95%;
+  }
+
+  div.nova-div {
+    color: antiquewhite;
+  }
+
+  div.bloco1 {
+    background-color: green;
+  }
+  div.bloco2 {
+    background-color: blue;
+  }
+  div.bloco3 {
+    background-color: red;
+  }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+  header {
+    background-color: red;
+  }
+
+  section {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* Parceba que sem a especificação do align-content os elementos ficam isolados assim que são deslocados para baixo da tela. Para corrigir isso veja o @media abaixo com o align-content: center; */
+  }
+}
+
+/* Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+  header {
+    background-color: gray;
+    color: white;
+  }
+  section {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* O align-content condensa os elementos de mod que fiquem próximos; */
+    align-content: flex-start;
+  }
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+  header {
+    background-color: coral;
+    color: white;
+  }
+  section {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* O align-content condensa os elementos de mod que fiquem próximos; */
+    align-content: flex-end;
+  }
+}
+
+/* ​Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+}
