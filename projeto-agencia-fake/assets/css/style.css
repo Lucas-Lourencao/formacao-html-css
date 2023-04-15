@@ -43,7 +43,7 @@ body {
 .logo {
   /* border: 1px solid red; */
   flex: 20%;
-  text-align: center;
+  text-align: left;
   margin-left: 10%;
 }
 
@@ -58,11 +58,11 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: white;
 }
 
 .coluna-header-headline {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex: 40%;
   margin-left: 10%;
   color: #180f4a;
@@ -77,6 +77,26 @@ body {
 
 .img-header {
   max-width: 90%;
+}
+
+.lorem-headline {
+  color: gray;
+  text-align: left;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.btn-headline {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #ff2978;
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 /* Propriedades com seletor Classe + Tag */
@@ -96,4 +116,8 @@ body {
 .menu a:hover {
   color: #ff2978;
   border-top: 4px solid #180f4a;
+}
+
+.btn-headline:hover {
+  background-color: #180f4a;
 }
