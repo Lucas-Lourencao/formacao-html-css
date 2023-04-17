@@ -13,6 +13,40 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+section {
+  /* border-top: 1px solid #000; */
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  min-height: 400px;
+}
+
+section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  color: #180f4a;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 100px;
+  min-height: 300px;
+  background-image: linear-gradient(180deg, #180f44, #090422, #000);
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px;
+}
+
 /* Propriedades com seletor Atributo */
 
 /* Propriedades com seletor Id */
@@ -79,11 +113,19 @@ body {
   max-width: 90%;
 }
 
+.headline-h2 {
+  font-size: 60px;
+  font-weight: 900;
+  /* padding: 0;
+  margin: 0; */
+}
+
 .lorem-headline {
   color: gray;
   text-align: left;
   font-weight: 300;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .btn-headline {
@@ -97,6 +139,36 @@ body {
   font-weight: 300;
   border-radius: 5px;
   text-decoration: none;
+}
+
+.servicos {
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card {
+  border: 1px solid #ff2978;
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.texto-oculto {
+  display: none;
+}
+
+.logo-footer {
+  padding: 100px;
+}
+
+.whats {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
 }
 
 /* Propriedades com seletor Classe + Tag */
@@ -120,4 +192,22 @@ body {
 
 .btn-headline:hover {
   background-color: #180f4a;
+}
+
+.card:hover {
+  background-color: #ff2978;
+  color: white;
+  padding: 30px;
+}
+
+.card:hover img {
+  visibility: hidden;
+}
+
+.card:hover .card-text {
+  display: none;
+}
+
+.card:hover .texto-oculto {
+  display: inline-block;
 }
